@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/nof"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/group1"
+        android:translationY="-100dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/min"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/minus"
+        android:translationX="-120dp"
+        android:translationY="200dp">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/max"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/plus"
+        android:translationY="200dp"
+        android:translationX="120dp">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textSize="60dp"
+        android:translationY="200dp">
+
+    </TextView>
+
+</RelativeLayout>
